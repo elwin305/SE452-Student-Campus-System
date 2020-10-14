@@ -22,3 +22,9 @@
 .idea/**/libraries
 /bin/
 /.gradle/
+
+#Eclipse
+local.properties
+.settings/
+.loadpath
+.recommenders

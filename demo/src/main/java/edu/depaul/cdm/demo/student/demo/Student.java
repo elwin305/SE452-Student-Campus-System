@@ -10,13 +10,18 @@ public class Student {
 
     @Id
     @GeneratedValue
+    @Column(name = "STUDENT_ID")
     private int student_id;
+    
 	@Column(name = "FIRST_NAME")
     private String firstName;
+	
 	@Column(name = "LAST_NAME")
     private String lastName;
+	
 	@Column(name = "U_PASS")
 	private int uPass;
+	
 	@Column(name = "CREDITS_TAKEN")
 	private int credits;
 	

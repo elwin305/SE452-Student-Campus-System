@@ -17,15 +17,21 @@ public class Course {
 
 	@Id
     @GeneratedValue
+    @Column(name = "COURSE_ID")
     private int Course_ID;
+	
 	@Column(name = "SHORT_NAME")
 	private String shortName;
+	
 	@Column(name = "NAME")
 	private String name;
+	
 	@Column(name = "DEPARTMENT")
 	private String dept;
+	
 	@Column(name = "CREDITS")
 	private int credits;
+	
 	@Column(name = "GRADUATE")
 	private boolean graduate;
 	

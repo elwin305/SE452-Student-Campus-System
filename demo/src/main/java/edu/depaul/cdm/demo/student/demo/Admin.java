@@ -15,9 +15,12 @@ public class Admin {
 
 	@Id
     @GeneratedValue
+    @Column(name = "ADMIN_ID")
     private int admin_id;
+	
 	@Column(name = "FIRST_NAME")
     private String firstName;
+	
 	@Column(name = "LAST_NAME")
     private String lastName;
 	
