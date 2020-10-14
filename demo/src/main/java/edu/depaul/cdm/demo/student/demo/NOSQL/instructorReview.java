@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Document(collection = "instructorReview_collection")
-public class insturctorReview {
+public class instructorReview {
     @Id
     private Integer reviewID;
     private Integer insturctorID;
